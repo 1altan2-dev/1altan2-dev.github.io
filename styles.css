@@ -32,3 +32,8 @@
 .articles .thumb.t4 {
   background: url("/assets/inteligencia.jpg") center / cover no-repeat;
 }
+
+/* Imágenes editoriales accesibles */
+.articles img.editorial-image{display:block;width:100%;height:145px;object-fit:cover;background:none;}
+.image-caption{display:block;margin:6px 16px;color:#586574;font-size:11px;}
+@media(max-width:700px){.articles img.editorial-image{height:170px;}}
