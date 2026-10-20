@@ -15,3 +15,20 @@
 .profile-page h2{border-top:1px solid #e8e5e0;padding-top:28px;margin-top:38px}.profile-page .profile-meta{background:#f8f5ef;border-left:4px solid var(--gold);border-radius:0 5px 5px 0}.profile-page .profile-meta p{margin:0}.profile-page details{padding:20px 4px}.profile-page summary{line-height:1.5}.profile-page dl{background:#fbfaf8;border:1px solid #e8e5e0;border-radius:5px;padding:24px}.profile-page .note{border-top:1px solid #e8e5e0;padding-top:18px}.profile-page .author-list{background:#fbfaf8;padding:28px}.profile-page .author-list a{font-weight:700}
 .site-footer{background:#091c2b;color:#e8edf1;padding:32px 5%;font-size:.85rem;line-height:1.7}.site-footer a{color:#e6b66a;text-decoration:underline}.site-footer .footer-links{display:flex;flex-wrap:wrap;gap:18px;margin-top:10px}.editorial-link{font-size:.92rem;margin-top:18px;color:#48525d}.editorial-link a{color:#8c601b;text-decoration:underline}
 @media(max-width:680px){.profile-page{width:calc(100% - 24px);margin:18px auto 45px;padding:24px 20px}.profile-page dl{grid-template-columns:1fr;gap:4px;padding:18px}.profile-page dt:not(:first-child){margin-top:14px}.profile-page h1{font-size:2.5rem}.profile-page h2{font-size:1.4rem}.profile-page .profile-meta{padding:20px}}
+/* V4: Imagenes editoriales de Analisis recientes */
+
+.articles .thumb.t1 {
+  background: url("/assets/seguridad.jpg") center / cover no-repeat;
+}
+
+.articles .thumb.t2 {
+  background: url("/assets/inteligencia-artificial.jpg") center / cover no-repeat;
+}
+
+.articles .thumb.t3 {
+  background: url("/assets/politica.jpg") center / cover no-repeat;
+}
+
+.articles .thumb.t4 {
+  background: url("/assets/inteligencia.jpg") center / cover no-repeat;
+}
