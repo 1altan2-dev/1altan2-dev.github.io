@@ -37,3 +37,11 @@
 .articles img.editorial-image{display:block;width:100%;height:145px;object-fit:cover;background:none;}
 .image-caption{display:block;margin:6px 16px;color:#586574;font-size:11px;}
 @media(max-width:700px){.articles img.editorial-image{height:170px;}}
+
+/* Footer: recursos y referencias públicas */
+.site-footer .footer-resources{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:26px;margin:26px 0 12px;padding:24px 0;border-top:1px solid #39505f;border-bottom:1px solid #39505f}
+.site-footer .footer-resource-group{min-width:0}
+.site-footer .footer-resource-group h2{color:#f3e8d4;font:700 16px/1.4 Georgia,serif;margin:0 0 12px}
+.site-footer .footer-resource-group a{display:block;overflow-wrap:anywhere;margin:0 0 10px;line-height:1.55}
+.site-footer .footer-resource-note{color:#c0cbd3;font-size:12px;line-height:1.6;margin:12px 0 0}
+@media(max-width:680px){.site-footer .footer-resources{grid-template-columns:1fr;gap:18px}}
